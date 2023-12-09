@@ -175,6 +175,15 @@ let timer = setInterval(autoPlay, 5000);
 
 window.onload = load();
 
+// Contact page
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  e.target.elements.name.value = '';
+  e.target.elements.email.value = '';
+  e.target.elements.message.value = '';
+});
+
+
 
 //Footer Year 
 var year = document.getElementById("year");

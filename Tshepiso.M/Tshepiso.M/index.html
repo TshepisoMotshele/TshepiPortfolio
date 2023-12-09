@@ -281,8 +281,8 @@
                            <img src="#" />
                         </div>
                         <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Mosh Hamedani</h6>
+                           <p>I can't say enough about how incredible my experience has been in such a short amount of time I have met Tshepiso. Since our first meet up,I feel like a valued partner rather than just another coworker. The results speak for themselves in both my personal and professional life, I have seen a significant improvement since I have met her. The best part is that these improvements have been sustainable allowing myself to continue growing in both my professional and personal life.</p>
+                           <h6>Sisanda Manjanja</h6>
                            <p>Software Engineer</p>
                         </div>
                      </div>
@@ -291,8 +291,8 @@
                            <img src="#" />
                         </div>
                         <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Kyle Simpson</h6>
+                           <p>I had the privilege of working alongside Tshepiso during our full-stack development internship, and I can confidently say it was an enriching and transformative experience. Together, we navigated the intricacies of both front-end and back-end development, gaining valuable insights into the complete software development lifecycle. The hands-on projects allowed us to apply theoretical knowledge to real-world scenarios, honing our problem-solving skills and fostering a deep understanding of web development technologies.</p>
+                           <h6>Nasiphi Ngcobozi</h6>
                            <p>JavaScript Engineer</p>
                         </div>
                      </div>
@@ -301,7 +301,8 @@
                            <img src="#" />
                         </div>
                         <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa a
+                              ccusamus magni accusantium itaque dolore soluta.</p>
                            <h6>Ryan Florence</h6>
                            <p>ReactJS Engineer</p>
                         </div>
@@ -311,7 +312,8 @@
                            <img src="#" />
                         </div>
                         <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae 
+                              culpa accusamus magni accusantium itaque dolore soluta.</p>
                            <h6>Amelia Madyson</h6>
                            <p>Front-End Developer</p>
                         </div>
@@ -322,64 +324,52 @@
             </div>
          </div>
       </section>
-      <section class="contact" id="contact">
-         <div class="container">
-             <div class="heading text-center">
-                 <h2>Contact
-                     <span> Me </span></h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                     <br>incididunt ut labore et dolore magna aliqua.</p>
-             </div>
-             <div class="row">
-                 <div class="col-md-5">
-                     <div class="title">
-                         <h3>Contact details</h3>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                     </div>
-                     <div class="content">
-                         <!-- Info-1 -->
-                         <div class="info">
-                             <i class="fas fa-mobile-alt"></i>
-                             <h4 class="d-inline-block">PHONE :
-                                 <br>
-                                 <span>+2766 253 1694</span></h4>
-                         </div>
-                         <!-- Info-2 -->
-                         <div class="info">
-                             <i class="far fa-envelope"></i>
-                             <h4 class="d-inline-block">EMAIL :
-                                 <br>
-                                 <span>tshepisomotshele9@gmail.com</span></h4>
-                         </div>
-                         <!-- Info-3 -->
-                         <div class="info">
-                             <i class="fas fa-map-marker-alt"></i>
-                             <h4 class="d-inline-block">ADDRESS :<br>
-                                 <span>Cape Town, South Africa</span></h4>
-                         </div>
+      <section id="contact">
+         <h1 class="section-header">Contact Me</h1>
+     
+         <div class="contact-wrapper">
+             <!-- Left contact page -->
+             <form id="contact-form" class="form-horizontal" role="form">
+                 <div class="form-group">
+                     <div class="col-sm-12">
+                         <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
                      </div>
                  </div>
- 
-                 <div class="col-md-7">
- 
-                     <form>
-                         <div class="row">
-                             <div class="col-sm-6">
-                                 <input type="text" class="form-control" placeholder="Name">
-                             </div>
-                             <div class="col-sm-6">
-                                 <input type="email" class="form-control" placeholder="Email">
-                             </div>
-                             <div class="col-sm-12">
-                                 <input type="text" class="form-control" placeholder="Subject">
-                             </div>
-                         </div>
-                         <div class="form-group">
-                             <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
-                         </div>
-                         <button class="btn btn-block" type="submit">Send Now!</button>
-                     </form>
+     
+                 <div class="form-group">
+                     <div class="col-sm-12">
+                         <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                     </div>
                  </div>
+     
+                 <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+     
+                 <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                     <div class="alt-send-button">
+                         <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                     </div>
+                 </button>
+             </form>
+     
+             <!-- Right contact page -->
+             <div class="direct-contact-container">
+                 <ul class="contact-list">
+                     <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Cape Town, South Africa</span></i></li>
+                     <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+27 66 2531 694</a></span></i></li>
+                     <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:teshepismotshele9@gmail.com" title="Send me an email">Tshepisomotshele9@gmail.com</a></span></i></li>
+                 </ul>
+     
+                 <hr>
+                 
+                 <!-- Social Media Links -->
+                 <ul class="social-media-list">
+                     <li><a href="#" target="_blank" class="contact-icon"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                     <li><a href="www.linkedin.com/in/tshepisomotshele" target="_blank" class="contact-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                     <li><a href="#" target="_blank" class="contact-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 </ul>
+     
+                 <hr>
+     
              </div>
          </div>
      </section>
@@ -387,11 +377,7 @@
          <div class="container">
             <div class="row">
                <div class="footer-logo">Tshepiso</div>
-               <div class="social-link">
-                  <a href="www.linkedin.com/in/tshepisomotshele"><i class="fa fa-linkedin"></i></a>
-                  <a href=""><i class="fa fa-github"></i></a>
-               </div>
-            </div>
+               
          </div>
       </footer>
       <section class="copyright">

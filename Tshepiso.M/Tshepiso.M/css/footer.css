@@ -1,5 +1,5 @@
 footer {
-    padding: 10px 5px;
+    padding: 8px 5px;
     background-color: #01143e;
 }
 
@@ -7,28 +7,10 @@ footer {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
     font-family: 'Lobster', cursive;
     color: rgb(236, 241, 250);
     font-weight: 900;
-}
-
-.social-link {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.social-link a {
-    color: #999999;
-    display: inline-block;
-    margin: 0px 12px;
-    transition: all 0.5s ease;
-}
-
-.social-link a:hover {
-    color: rgb(236, 241, 250)
 }
 
 .copyright {
